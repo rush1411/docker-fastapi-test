@@ -1,0 +1,12 @@
+version: '3.0'
+
+services:
+  fastapi-test:
+    container_name: nimap-fastapi-task
+    image: rush1411/nimap-fastapi-task
+    ports:
+      - 8080:8080
+    build: 
+      dockerfile: ./Dockerfile
+
+    
