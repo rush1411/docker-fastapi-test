@@ -19,6 +19,8 @@ Use the following command to build the Docker image locally:
 
 
 docker compose build
+
+
 b) Pull the Image from Docker Hub
 Alternatively, you can pull the pre-built image from Docker Hub:
 
